@@ -31,31 +31,37 @@ $lw: 1370px;
 	justify-content: center;
 }
 
+
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
 
 @mixin f-l {
-	font-family: 'Heebo', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
 }
 
 @mixin f-r {
-	font-family: 'Heebo', sans-serif;
-	font-weight: normal;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 }
 
 @mixin f-m {
-	font-family: 'Heebo', sans-serif;
-	font-weight: medium;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 }
 
 @mixin f-b {
-	font-family: 'Heebo', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 700;
 }
+
+@mixin f-bl {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+}
+
+
 
 
 /* /Fonts */
@@ -73,6 +79,10 @@ body {
   	overflow-x: hidden;
   	@include f-r;
   	font-size: 18px;
+	line-height: 1;
+	max-width: 1920px;
+	margin: auto;
+	padding-top: 45px;
 }
 
 input {
@@ -99,6 +109,7 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+
 
 
 
